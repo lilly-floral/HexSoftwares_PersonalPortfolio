@@ -8,61 +8,123 @@
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header>
+    <div class="header-inner">
+      <div class="header-tag"> Portfolio · 2026</div>
     <h1>Nida</h1>
-    <p>Frontend Developer | Learner | Creator</p>
+    <p class="header-sub">Frontend Developer &nbsp;·&nbsp; Learner &nbsp;
+      ·&nbsp; Creator</p>      
+        <div class="header-ornament">
+        <span class="h-line"></span>
+        <span class="h-diamond">◆</span>
+        <span class="h-line"></span>
+      </div>
+    </div>
   </header>
-  <section>
+
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-img-wrap">
+    <img src="image/p1.png" alt="Nida's Avatar">
+    </div>
+     <div id="about-text">
+      <span class="eyebrow">who I am</span>
     <h2>About Me</h2>
-    <img src="image/portfolio.jpg" alt="Nida's Avatar" class="avatar">
-    <p>Im a self‑taught developer learning HTML, CSS, JavaScript, PHP, and SQL. I love creating aesthetic, minimal designs and exploring AI tools to enhance creativity.</p>
+    <p>Im a self‑taught developer learning HTML, CSS, JavaScript, PHP, and SQL. I love creating aesthetic, minimal designs and exploring AI tools to enhance creativity.
+    </p>
+    </div>
+    </div>
   </section>
+
   <section id="skills">
+    <div class="section-head">
+      <span class="eyebrow">what I know</span>
     <h2>Skills</h2>
-    <ul>
-      <li>HTML & CSS</li>
-      <li>JavaScript (basics)</li>    
-      <li>PHP & SQL (basic knowledge, needs refreshing)</li>
-      <li>Git & GitHub</li>
-      <li>Figma & Canva</li>
-    </ul>
-    </section>
-    <section  id= "projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <div class="project-content">
-          <div  class="project-image">
-            <img src="image/p1.jpg" alt="illustration of a portfolio website">
-          </div>
-        <div class="project-text">
-          <h3>Personal Portfolio</h3>
-          <p>A modern portfolio built with HTML and CSS to showcase my bio, skills, and projects.</p>
-            <a href= "https://lilly-floral.github.io/HexSoftwares_PersonalPortfolio/" class="btn portfolio-btn">View Portfolio</a>
-        </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project-content">
-          <div  class="project-image">
-            <img src="image/c1.jpg" alt="illustration of a blog website">
-          </div>
-          <div class="project-text">
-             <h3>Milo & Co. Café Website</h3>
-             <p>A warm, minimal café website built using HTML and CSS with soft beige and brown tones. Currently in progress.</p>
-             <a href=" https://lilly-floral.github.io/milo-cafe-website/"class="btn cafe-btn">View Coffee Website</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:nidamorla@gmail.com">nidamorla@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nida-shoaib-4999723ab/">linkedin.com/in/nida</a></p>
-    <p>GitHub: <a href="https://github.com/lilly-floral">github.com/lilly-floral</a></p>
+    <div class="ornament">
+      <span class="o-line"></span>
+      <span class="o-dot">◆</span>
+      <span class="o-line"></span>
+    </div>
+    </div>
+    <div class="skills-container">
+      <div class="skill-box">HTML &amp; CSS</div>
+      <div class="skill-box">JavaScript (Basics)</div>
+      <div class="skill-box">PHP &amp; SQL</div>
+      <div class="skill-box">Git &amp; GitHub</div>
+      <div class="skill-box">Figma &amp; Canva</div>
+    </div> 
   </section>
+
+     <section id="projects">
+      <div class="section-head">
+      <span class="eyebrow">what I've built</span>
+      <h2>Projects</h2>
+      <div class="ornament"><span class="o-line"></span><span class="o-dot">◆</span><span class="o-line"></span></div>
+  </div>
+
+  <div class="projects-container">
+
+    <div class="project-box">
+      <div class="project-image">
+            <img src="image/p2.png" alt="Work Illustration">
+            <div class="project-overlay">
+              <a href="" class="overlay-btn" target="_blank">View Live</a>
+            </div>
+            </div>
+
+            <div class="project-text">
+              <span class="project-tag">HTML · CSS </span>
+              <h3>Personal Portfolio</h3>
+              <p>A modern portfolio built with HTML and CSS to showcase my bio, skills, and projects.</p>
+              <a href="https://lilly-floral.github.io/HexSoftwares_PersonalPortfolio/" class="btn" target="_blank">View Portfolio ↗</a>                           
+            </div>
+          </div>
+
+            <div class="project-box">
+              <div class="project-image">
+                <img src="image/c1.png" alt="coffee illustration">
+                <div class="project-overlay">
+                  <a href="https://lilly-floral.github.io/milo-cafe-website/" class="overlay-btn" target="_blank">View Live ↗</a>
+                </div>             
+              </div>
+              <div class="project-text">
+                <span class="project-tag">HTML · CSS &nbsp;·&nbsp; <em>In Progress</em></span>
+                <h3>Milo & Co. Café Website</h3>
+                <p>A warm, minimal café website built using HTML and CSS with soft beige and brown tones. Currently in progress.</p>
+                <a href="https://lilly-floral.github.io/milo-cafe-website/" class="btn" target="_blank">View Coffee Website ↗</a>
+              </div>
+           </div>
+               
+      </div>
+    </section> 
+
+    <section id="contact">
+      <div class="section-head">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Contact</h2>
+      <div class="ornament"><span class="o-line"></span><span class="o-dot">◆</span><span class="o-line"></span></div>
+    </div>
+
+    <div class="contact-container">
+      <a href="mailto:nidamorla0@gmail.com" class="contact-item">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">nidamorla0@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/nida-shoaib-4999723ab/" class="contact-item" target="_blank">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/nida</span>
+      </a>
+       <a href="https://github.com/lilly-floral" class="contact-item" target="_blank">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/lilly-floral</span>
+      </a>
+    </div>
+  </section>
+
    <footer>
-    <p>© 2026 Nida | Built with ❤️ using HTML & CSS</p>
-   </footer>
+    <p>© 2026 Nida &nbsp;◆&nbsp; Built with ❤️ using HTML &amp; CSS</p>
+    </footer>
   
 </body>
 </html>
